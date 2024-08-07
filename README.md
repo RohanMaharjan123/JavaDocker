@@ -5,7 +5,7 @@ This project demonstrates how to build and run a Java application using Docker.
 ## Prerequisites
 
 - Docker installed on your machine [Docker](https://www.docker.com).
-- Java Development Kit (JDK) installed [Java Development Kit](https://www.oracle.com/java/technologies/downloads/) (https://adoptium.net/temurin/releases/).
+- Java Development Kit (JDK) installed [Java Development Kit-Oracle](https://www.oracle.com/java/technologies/downloads/) [Java Development Kit-Temurin](https://adoptium.net/temurin/releases/).
 
 ## Project Structure
 
