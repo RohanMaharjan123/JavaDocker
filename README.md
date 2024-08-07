@@ -4,8 +4,8 @@ This project demonstrates how to build and run a Java application using Docker.
 
 ## Prerequisites
 
-- Docker installed on your machine
-- Java Development Kit (JDK) installed
+- Docker installed on your machine [Docker](https://www.docker.com).
+- Java Development Kit (JDK) installed [Java Development Kit](https://www.oracle.com/java/technologies/downloads/) (https://adoptium.net/temurin/releases/).
 
 ## Project Structure
 
@@ -21,7 +21,7 @@ RUN javac sample.java
 CMD ["java", "sample"]
 ```
 
-Building and Running the Docker Image
+## Building and Running the Docker Image
 
 Step 1: Compile the Java Program Locally
 
@@ -78,7 +78,7 @@ To remove a Docker image, use the following command, replacing <image_id> with t
 docker rmi <image_id>
 ```
 
-Common Docker Commands
+## Common Docker Commands
 
 Build a Docker Image
 
@@ -116,7 +116,7 @@ Remove a Docker Image
 docker rmi <image_id>
 ```
 
-Example Commands
+## Example Commands
 
 1. Build the Docker image:
 
