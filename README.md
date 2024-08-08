@@ -5,7 +5,7 @@ This project demonstrates how to build and run a Java application using Docker.
 ## Prerequisites
 
 - Docker installed on your machine [Docker](https://www.docker.com).
-- Java Development Kit (JDK) installed [Java Development Kit-Oracle](https://www.oracle.com/java/technologies/downloads/) [Java Development Kit-Temurin](https://adoptium.net/temurin/releases/).
+- Java Development Kit (JDK) installed [Java Development Kit-Oracle](https://www.oracle.com/java/technologies/downloads/), [Java Development Kit-Temurin](https://adoptium.net/temurin/releases/).
 
 ## Project Structure
 
@@ -159,3 +159,12 @@ docker run -it --name calciapp -d calci
 ```bash
 docker exec -it calciapp java sample
 ```
+
+
+Troubleshooting
+
+Ensure Docker is running and properly configured on your system.
+Check the container logs with docker logs mysql-container for any issues.
+
+License
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
