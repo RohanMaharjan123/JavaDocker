@@ -160,6 +160,17 @@ docker run -it --name calciapp -d calci
 docker exec -it calciapp java sample
 ```
 
+8. Stopping the container using container id:
+
+```bash
+docker stop <container_id>
+```
+
+9. Stopping Container using container name.
+
+```bash
+docker stop <container_name>
+```
 
 Troubleshooting
 
