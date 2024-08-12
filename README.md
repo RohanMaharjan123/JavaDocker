@@ -172,10 +172,23 @@ docker stop <container_id>
 docker stop <container_name>
 ```
 
+10. Removing Container with id
+
+```bash
+docker rm  <container_id>
+```
+
+11. Removing Container with container name
+
+```bash
+docker rm <container_name>
+```
+
 Troubleshooting
 
 Ensure Docker is running and properly configured on your system.
 Check the container logs with docker logs mysql-container for any issues.
 
 License
+
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
